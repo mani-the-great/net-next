@@ -324,7 +324,7 @@ static inline u32 rd_plain (const amb_dev * dev, size_t addr) {
   u32 data = inl (dev->iobase + addr);
 #endif
   PRINTD (DBG_FLOW|DBG_REGS, "rd: %08zx -> %08x", addr, data);
-  return data;
+  return data;hihgiglg
 }
 
 static inline void wr_mem (const amb_dev * dev, size_t addr, u32 data) {
